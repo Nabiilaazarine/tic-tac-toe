@@ -216,16 +216,16 @@ void updateGrid(){
       textAlign(CENTER, CENTER);
       fill(255, 100);
       if(!player1_choice)
-          fill(#C1FFFE, 100);   
+          fill(#FFFFFF);   
         else
-          fill(#FFC1C2, 100);   
+          fill(#FFFFFF);   
       text("P1 menang! : "+str(p1wins), box_width/2, height*0.96);
-      fill(#FFEEAF, 100);
+      fill(#FFFFFF);
       text("Seri : "+str(draws), box_width+box_width/2, height*0.96);
       if(player1_choice)
-          fill(#C1FFFE, 100);   
+          fill(#FFFFFF);   
         else
-          fill(#FFC1C2, 100);    
+          fill(#FFFFFF);    
       if(ai_mode){
         text("AI menang! : "+str(p2wins), 2*box_width+box_width/2, height*0.96);
         }
@@ -235,16 +235,16 @@ void updateGrid(){
       
       if(turn==player1_choice){
         if(player1_choice)
-          fill(#FFC1C2, 180);   
+          fill(#FFFFFF);   
         else
-          fill(#C1FFFE, 180);     
+          fill(#FFFFFF);     
         text("Gantian : P1", 2*box_width+box_width/2, height*0.04);
       }
       else{
          if(!player1_choice)
-           fill(#FFC1C2, 180);     
+           fill(#FFFFFF);     
          else
-           fill(#C1FFFE, 180);     
+           fill(#FFFFFF);     
            
          if(ai_mode)
            text("Gantian : AI", 2*box_width+box_width/2, height*0.04);
